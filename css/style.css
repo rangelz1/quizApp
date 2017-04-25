@@ -48,3 +48,12 @@ body {
 	color: #2d2d2d;
 	font-size: 18px;
 }
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+	cursor: pointer;
+	background-color: #FFFFF0;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+	outline: 0;
+}
