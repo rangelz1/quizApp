@@ -10,7 +10,7 @@ Quiz.prototype.getQuestionIndex = function() {
 }
 
 //this function checks if the quiz has ended
-Quiz.prototype.isEnded = funtion() {
+Quiz.prototype.isEnded = function() {
 	return this.questions.length === this.questionIndex;
 }
 
